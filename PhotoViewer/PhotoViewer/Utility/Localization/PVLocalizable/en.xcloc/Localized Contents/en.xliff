@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="PhotoViewer/Base.lproj/LaunchScreen.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="kGd-Us-UQ5.text">
+        <source>Photo Viewer</source>
+        <target>Photo Viewer</target>
+        <note>Class = "UILabel"; text = "Photo Viewer"; ObjectID = "kGd-Us-UQ5";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PhotoViewer/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="2G3-uy-qPe.normalTitle">
+        <source>View Images</source>
+        <target>View Images</target>
+        <note>Class = "UIButton"; normalTitle = "View Images"; ObjectID = "2G3-uy-qPe";</note>
+      </trans-unit>
+      <trans-unit id="Dg5-0g-Xxv.text">
+        <source>Welcome</source>
+        <target>Welcome</target>
+        <note>Class = "UILabel"; text = "Welcome"; ObjectID = "Dg5-0g-Xxv";</note>
+      </trans-unit>
+      <trans-unit id="QL5-2A-gfh.text">
+        <source>Photo Viewer</source>
+        <target>Photo Viewer</target>
+        <note>Class = "UILabel"; text = "Photo Viewer"; ObjectID = "QL5-2A-gfh";</note>
+      </trans-unit>
+      <trans-unit id="nGd-nz-GiN.placeholder">
+        <source>yadhum900</source>
+        <target>yadhum900</target>
+        <note>Class = "UITextField"; placeholder = "yadhum900"; ObjectID = "nGd-nz-GiN";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PhotoViewer/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>PhotoViewer</source>
+        <target>PhotoViewer</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PhotoViewer/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="Welcome">
+        <source>Welcome</source>
+        <target>Welcome</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

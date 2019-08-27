@@ -1,0 +1,28 @@
+PODS:
+  - Networking (5.0.0)
+  - SVProgressHUD (2.2.6)
+
+DEPENDENCIES:
+  - Networking
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Networking
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 4fdf3fdc8703fd9915dae33fc1363c604a06b24e
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Networking: 8ced5868ab2b5cf0fcc1d3657bf9bb589ae2fe91
+  SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
+
+PODFILE CHECKSUM: 14c1aba3cc57578c49c7a49d7621f9ef9df92490
+
+COCOAPODS: 1.5.3

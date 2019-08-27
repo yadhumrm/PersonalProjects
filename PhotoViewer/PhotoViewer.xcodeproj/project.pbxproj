@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022206A342572A6DFF084854 /* Pods_PhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA46FD7FED7E39D34B862E /* Pods_PhotoViewer.framework */; };
+		CE16A53A231308FF00CBAD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16A539231308FF00CBAD1A /* AppDelegate.swift */; };
+		CE16A53C231308FF00CBAD1A /* PVHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16A53B231308FF00CBAD1A /* PVHomeViewController.swift */; };
+		CE16A53F231308FF00CBAD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE16A53D231308FF00CBAD1A /* Main.storyboard */; };
+		CE16A5412313090200CBAD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE16A5402313090200CBAD1A /* Assets.xcassets */; };
+		CE16A5442313090200CBAD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE16A5422313090200CBAD1A /* LaunchScreen.storyboard */; };
+		CE16A54E231309C400CBAD1A /* PVPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16A54D231309C400CBAD1A /* PVPhotoManager.swift */; };
+		CE16A55123130A6900CBAD1A /* PVPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16A55023130A6900CBAD1A /* PVPhoto.swift */; };
+		CEE6C4C1231457EE009BE33F /* PVErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4C0231457EE009BE33F /* PVErrorHandler.swift */; };
+		CEE6C4C323145DCA009BE33F /* PVLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4C223145DCA009BE33F /* PVLaunchViewController.swift */; };
+		CEE6C4C823146C6D009BE33F /* PVUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4C723146C6D009BE33F /* PVUtility.swift */; };
+		CEE6C4D423159A99009BE33F /* PVCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4D323159A99009BE33F /* PVCollectionViewLayout.swift */; };
+		CEE6C4D62315A276009BE33F /* PVPhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4D52315A276009BE33F /* PVPhotoCollectionCell.swift */; };
+		CEE6C4D82315B87C009BE33F /* PVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C4D72315B87C009BE33F /* PVDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DCA46FD7FED7E39D34B862E /* Pods_PhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A536F29C7B981ED45BC92065 /* Pods-PhotoViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer.release.xcconfig"; sourceTree = "<group>"; };
+		BBBE45339CED24E779CADCAE /* Pods-PhotoViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		CE16A536231308FF00CBAD1A /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE16A539231308FF00CBAD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE16A53B231308FF00CBAD1A /* PVHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVHomeViewController.swift; sourceTree = "<group>"; };
+		CE16A53E231308FF00CBAD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE16A5402313090200CBAD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE16A5432313090200CBAD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE16A5452313090200CBAD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE16A54D231309C400CBAD1A /* PVPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVPhotoManager.swift; sourceTree = "<group>"; };
+		CE16A55023130A6900CBAD1A /* PVPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVPhoto.swift; sourceTree = "<group>"; };
+		CEE6C4C0231457EE009BE33F /* PVErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVErrorHandler.swift; sourceTree = "<group>"; };
+		CEE6C4C223145DCA009BE33F /* PVLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVLaunchViewController.swift; sourceTree = "<group>"; };
+		CEE6C4C723146C6D009BE33F /* PVUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVUtility.swift; sourceTree = "<group>"; };
+		CEE6C4D323159A99009BE33F /* PVCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVCollectionViewLayout.swift; sourceTree = "<group>"; };
+		CEE6C4D52315A276009BE33F /* PVPhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVPhotoCollectionCell.swift; sourceTree = "<group>"; };
+		CEE6C4D72315B87C009BE33F /* PVDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE16A533231308FF00CBAD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022206A342572A6DFF084854 /* Pods_PhotoViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42112D6F92B69B1CFFBF4A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE45339CED24E779CADCAE /* Pods-PhotoViewer.debug.xcconfig */,
+				A536F29C7B981ED45BC92065 /* Pods-PhotoViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93E198DD1B35246C1DD7988A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DCA46FD7FED7E39D34B862E /* Pods_PhotoViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE16A52D231308FF00CBAD1A = {
+			isa = PBXGroup;
+			children = (
+				CE16A538231308FF00CBAD1A /* PhotoViewer */,
+				CE16A537231308FF00CBAD1A /* Products */,
+				42112D6F92B69B1CFFBF4A9C /* Pods */,
+				93E198DD1B35246C1DD7988A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE16A537231308FF00CBAD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE16A536231308FF00CBAD1A /* PhotoViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE16A538231308FF00CBAD1A /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CE16A539231308FF00CBAD1A /* AppDelegate.swift */,
+				CEE6C4BF231457D9009BE33F /* Utility */,
+				CE16A54F23130A4D00CBAD1A /* Models */,
+				CE16A54C2313094200CBAD1A /* Controller */,
+				CE16A54B2313092100CBAD1A /* View */,
+				CE16A53D231308FF00CBAD1A /* Main.storyboard */,
+				CE16A5402313090200CBAD1A /* Assets.xcassets */,
+				CE16A5422313090200CBAD1A /* LaunchScreen.storyboard */,
+				CE16A5452313090200CBAD1A /* Info.plist */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		CE16A54B2313092100CBAD1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6C4D22315993D009BE33F /* Components */,
+				CE16A53B231308FF00CBAD1A /* PVHomeViewController.swift */,
+				CEE6C4C223145DCA009BE33F /* PVLaunchViewController.swift */,
+				CEE6C4D52315A276009BE33F /* PVPhotoCollectionCell.swift */,
+				CEE6C4D72315B87C009BE33F /* PVDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE16A54C2313094200CBAD1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE16A54D231309C400CBAD1A /* PVPhotoManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE16A54F23130A4D00CBAD1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE16A55023130A6900CBAD1A /* PVPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE6C4BF231457D9009BE33F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6C4C0231457EE009BE33F /* PVErrorHandler.swift */,
+				CEE6C4C723146C6D009BE33F /* PVUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CEE6C4D22315993D009BE33F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6C4D323159A99009BE33F /* PVCollectionViewLayout.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE16A535231308FF00CBAD1A /* PhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE16A5482313090200CBAD1A /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
+			buildPhases = (
+				CC720628B799E6AC9DB33823 /* [CP] Check Pods Manifest.lock */,
+				CE16A532231308FF00CBAD1A /* Sources */,
+				CE16A533231308FF00CBAD1A /* Frameworks */,
+				CE16A534231308FF00CBAD1A /* Resources */,
+				A1090CEFB70C323CDDCCF07B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoViewer;
+			productName = PhotoViewer;
+			productReference = CE16A536231308FF00CBAD1A /* PhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE16A52E231308FF00CBAD1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = YadhuManoharan;
+				TargetAttributes = {
+					CE16A535231308FF00CBAD1A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CE16A531231308FF00CBAD1A /* Build configuration list for PBXProject "PhotoViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE16A52D231308FF00CBAD1A;
+			productRefGroup = CE16A537231308FF00CBAD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE16A535231308FF00CBAD1A /* PhotoViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE16A534231308FF00CBAD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE16A5442313090200CBAD1A /* LaunchScreen.storyboard in Resources */,
+				CE16A5412313090200CBAD1A /* Assets.xcassets in Resources */,
+				CE16A53F231308FF00CBAD1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1090CEFB70C323CDDCCF07B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Networking/Networking.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Networking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC720628B799E6AC9DB33823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE16A532231308FF00CBAD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE16A55123130A6900CBAD1A /* PVPhoto.swift in Sources */,
+				CEE6C4C823146C6D009BE33F /* PVUtility.swift in Sources */,
+				CEE6C4D423159A99009BE33F /* PVCollectionViewLayout.swift in Sources */,
+				CE16A54E231309C400CBAD1A /* PVPhotoManager.swift in Sources */,
+				CE16A53C231308FF00CBAD1A /* PVHomeViewController.swift in Sources */,
+				CEE6C4D82315B87C009BE33F /* PVDetailViewController.swift in Sources */,
+				CEE6C4C323145DCA009BE33F /* PVLaunchViewController.swift in Sources */,
+				CEE6C4C1231457EE009BE33F /* PVErrorHandler.swift in Sources */,
+				CEE6C4D62315A276009BE33F /* PVPhotoCollectionCell.swift in Sources */,
+				CE16A53A231308FF00CBAD1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE16A53D231308FF00CBAD1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE16A53E231308FF00CBAD1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE16A5422313090200CBAD1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE16A5432313090200CBAD1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE16A5462313090200CBAD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE16A5472313090200CBAD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE16A5492313090200CBAD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE45339CED24E779CADCAE /* Pods-PhotoViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC6XHC3NXV;
+				INFOPLIST_FILE = PhotoViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yadhu.manoharan.PhotoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE16A54A2313090200CBAD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A536F29C7B981ED45BC92065 /* Pods-PhotoViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC6XHC3NXV;
+				INFOPLIST_FILE = PhotoViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yadhu.manoharan.PhotoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE16A531231308FF00CBAD1A /* Build configuration list for PBXProject "PhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE16A5462313090200CBAD1A /* Debug */,
+				CE16A5472313090200CBAD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE16A5482313090200CBAD1A /* Build configuration list for PBXNativeTarget "PhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE16A5492313090200CBAD1A /* Debug */,
+				CE16A54A2313090200CBAD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE16A52E231308FF00CBAD1A /* Project object */;
+}
