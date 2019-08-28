@@ -18,3 +18,11 @@
     * SVProgressHUD : A library to show progress, success and error on completion of long running tasks.
           
       
+* What to improve if i had more time.
+     * Will be adding localizations for multiple languages.
+     * Will be implementing share option inthe app to share the images.
+     * would have implemented the interaction with other APIs of unspash to bring more featutes like "favourite", 
+          "remove from favourite"
+     * would have implemented login for unspash to consume more apis and features.
+     * made UIs more attactive with more animations and other components.
+     
